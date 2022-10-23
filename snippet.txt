@@ -1,0 +1,22 @@
+<model-viewer src="room-v1.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="poster.webp" shadow-intensity="0.83" environment-image="whipple_creek_regional_park_04_1k.hdr" camera-orbit="45deg 60deg auto">
+    <button class="Hotspot" slot="hotspot-1" data-position="-39.053796445658406m 54.795968280719606m -220.43755251377686m" data-normal="0m 1.6292067939183141e-7m 0.9999999999999868m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Poster</div>
+    </button><button class="Hotspot" slot="hotspot-2" data-position="-101.2282207117153m 38.49921653624919m 171.91632812816007m" data-normal="1m 0m 0m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Drawer</div>
+    </button><button class="Hotspot" slot="hotspot-4" data-position="229.4934006692855m 7.166969721027829m -137.18221295903948m" data-normal="0.2697013956032628m -0.8890860546170727m 0.3698474613879348m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Lamp</div>
+    </button><button class="Hotspot" slot="hotspot-5" data-position="214.02617039427136m -35.564862029669484m 103.61735132129658m" data-normal="-0.9992872668259685m 0.00000102917221570703m -0.037748620616213854m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Books</div>
+    </button><button class="Hotspot" slot="hotspot-6" data-position="72.29602705457108m -152.20858040021773m -26.624071670142783m" data-normal="0m 0.9999999999999869m -1.6292067894774226e-7m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Floor</div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
