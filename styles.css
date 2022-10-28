@@ -75,6 +75,10 @@ model-viewer {
   transition: transform 0.3s, opacity 0.3s;
 }
 
+.AudioAnnotation {
+  bottom: 10%;  
+}
+
 
 .progress-bar {
   display: block;
