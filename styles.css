@@ -76,7 +76,8 @@ model-viewer {
 }
 
 .AudioAnnotation {
-  bottom: 10%;  
+  bottom: 10%; 
+  transform: translate(0px, 30px);
 }
 
 
