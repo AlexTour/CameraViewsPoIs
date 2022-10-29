@@ -45,8 +45,7 @@
     
       modelViewer2.querySelectorAll('button').forEach((hotspot) => {
         hotspot.addEventListener('click', () => annotationClicked(hotspot));
-        let element = document.getElementById("AudioAnnotation");
-        element.removeAttribute("hidden");   
+        let element = document.getElementById("AudioAnnotation").hidden = false;
       });
     </script>
     
@@ -56,8 +55,7 @@
         mv.cameraOrbit = '45deg 60deg auto%'
         mv.cameraTarget= '50m 0m 0m'
         mv.fieldOfView = '45deg'
-        let element = document.getElementById("AudioAnnotation");
-        element.setAttribute("hidden", "");     
+        let element = document.getElementById("AudioAnnotation").hidden = true;;
       }
     </script>
     
