@@ -45,10 +45,10 @@
     
       modelViewer2.querySelectorAll('button').forEach((hotspot) => {
         hotspot.addEventListener('click', () => annotationClicked(hotspot));
+      });
         let element = document.getElementById("AudioAnnotation");
         element.removeAttribute("hidden");   
         element.setAttribute("visible", "");
-      });
     </script>
     
     <script>
