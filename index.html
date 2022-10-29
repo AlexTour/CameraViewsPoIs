@@ -47,7 +47,7 @@
         hotspot.addEventListener('click', () => annotationClicked(hotspot));
         let element = document.getElementById("AudioAnnotation");
         element.removeAttribute("hidden");   
-        element.setAttribute("visible");
+        element.setAttribute("visible", "");
       });
     </script>
     
@@ -59,7 +59,7 @@
         mv.fieldOfView = '45deg'
         let element = document.getElementById("AudioAnnotation");
         element.removeAttribute("visible");
-        element.setAttribute("hidden");
+        element.setAttribute("hidden", "");
         
       }
     </script>
