@@ -79,13 +79,14 @@
       function enableSkybox() {
         // Get the checkbox
         var checkBox = document.getElementById("myCheck");
+        const modelViewer3 = document.querySelector("#hotspot-camera-view");
 
         // If the checkbox is checked, display the output text
         if (checkBox.checked == true){
-          modelViewer2.setAttribute(skybox-image, "decor_shop_2k.hdr");
+          modelViewer3.setAttribute(skybox-image, "decor_shop_2k.hdr");
         } 
         else {
-          modelViewer2.removeAttribute(skybox-image);
+          modelViewer3.removeAttribute(skybox-image);
         }
       }
     </script>
