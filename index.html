@@ -38,7 +38,7 @@
       Reset Camera
     </button>
     <label class="switch">
-      <input type="checkbox">
+      <input type="checkbox" id="myCheck" onclick="enableSkybox()">
       <span class="slider round"></span>
     </label>
     <script type="module">
@@ -72,6 +72,20 @@
         } else {
           x.style.display = 'none';
           button.innerText = "Show more";
+        }
+      }
+    </script>
+    <script>
+      function enableSkybox() {
+        // Get the checkbox
+        var checkBox = document.getElementById("myCheck");
+
+        // If the checkbox is checked, display the output text
+        if (checkBox.checked == true){
+          modelViewer2.setAttribute(skybox-image, "decor_shop_2k.hdr");
+        } 
+        else {
+          modelViewer2.removeAttribute(skybox-image);
         }
       }
     </script>
