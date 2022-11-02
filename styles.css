@@ -26,10 +26,11 @@ model-viewer {
   box-sizing: border-box;
   cursor: pointer;
   height: 24px;
-  padding: 8px;
+  /*padding: 8px;*/
   position: relative;
   transition: opacity 0.3s;
   width: 24px;
+  font-size: 14px;
 }
 
 .Hotspot:not([data-visible]) {
