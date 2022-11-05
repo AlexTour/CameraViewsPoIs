@@ -80,7 +80,8 @@ model-viewer {
 }
 
 .hide{
-    display: none;
+ display: none;
+}
 
 .AudioAnnotation {
   bottom: 10%; 
