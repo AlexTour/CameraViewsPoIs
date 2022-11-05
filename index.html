@@ -43,7 +43,7 @@
       <span class="slider round"></span>
     </label>
     <label for="show-dimensions">Show Dimensions:</label>
-    <input id="show-dimensions" type="checkbox" checked="true">
+    <input id="show-dimensions" type="checkbox" checked="true" onclick="toggleAnnotations(this)">
     <script type="module">
       const modelViewer2 = document.querySelector("#hotspot-camera-view");
       const annotationClicked = (annotation) => {
@@ -80,21 +80,16 @@
     </script>
     <script>
        const modelViewer4 = document.querySelector("#hotspot-camera-view");
-       const checkbox = modelViewer4.querySelector('#show-dimensions');
-
-      function setVisibility(element) {
-        if (checkbox.checked) {
-          element.classList.remove('hide');
-        } else {
-           element.classList.add('hide');
-        }
-      }
-
-      checkbox.addEventListener('change', function() {
+      
+       function toggleAnnotations(checkbox) {
         modelViewer4.querySelectorAll('button').forEach((hotspot) => {
-        setVisibility(hotspot);
+          if (checkbox.checked) {
+            hotspot.classList.remove('hide');
+          } else {
+            hotspot.classList.add('hide');
+          }
         });
-      });
+       }
     </script>
     <script>
       function enableSkybox() {
