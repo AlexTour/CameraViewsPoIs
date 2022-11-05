@@ -52,19 +52,19 @@
         modelViewer2.cameraTarget = dataset.target;
         modelViewer2.cameraOrbit = dataset.orbit;
         modelViewer2.fieldOfView = '45deg';
+        
+            
+        var x = document.getElementById('SectionName');
+        if (x.style.display == 'none') {
+          x.style.display = 'block';
+        } else {
+          x.style.display = 'none';
+        }
       }
     
       modelViewer2.querySelectorAll('button').forEach((hotspot) => {
         hotspot.addEventListener('click', () => annotationClicked(hotspot));
-      });
-      
-      var x = document.getElementById('SectionName');
-      if (x.style.display == 'none') {
-       x.style.display = 'block';
-      } else {
-        x.style.display = 'none';
-      }
-      
+      });   
     </script>
     
     <script>
