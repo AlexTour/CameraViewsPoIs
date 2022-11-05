@@ -79,6 +79,9 @@ model-viewer {
   transition: transform 0.3s, opacity 0.3s;
 }
 
+.hide{
+    display: none;
+
 .AudioAnnotation {
   bottom: 10%; 
   transform: translate(0px, 30px);
