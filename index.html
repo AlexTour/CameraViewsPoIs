@@ -29,6 +29,9 @@
       <button class="Hotspot" slot="hotspot-3" data-position="268.54899010719697m -152.20854355626895m 199.52247372983248m" data-normal="0m 0.9999999999999869m -1.6292067872569765e-7m" data-orbit="45deg 60deg auto" data-target="50m 0m 0m" data-visibility-attribute="visible">
         <b>3</b>
       </button> 
+      <button class="Hotspot" slot="hotspot-4" data-position="181.806804118606m 63.066660309895695m -207.72853060854163m" data-normal="-4.4131899229424014e-8m 0.9999999999999964m -7.206677961000719e-8m" data-orbit="61.97deg 23.14deg auto" data-target="271.4m 146.6m -235.31m" data-visibility-attribute="visible">
+        <b>4</b>
+      </button> 
       <div class="progress-bar hide" slot="progress-bar">
           <div class="update-bar"></div>
       </div>
@@ -101,6 +104,11 @@
       function() {
         mv2.cameraOrbit = '45deg 60deg auto'
         mv2.cameraTarget= '50m 0m 0m'
+        mv2.fieldOfView = '45deg'
+      },
+      function() {
+        mv2.cameraOrbit = '61.97deg 23.14deg auto'
+        mv2.cameraTarget= '271.4m 146.6m -235.31m'
         mv2.fieldOfView = '45deg'
       }
       ];
