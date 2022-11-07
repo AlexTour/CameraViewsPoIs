@@ -130,10 +130,11 @@
     }
     let btn1 = document.getElementsByTagName('button')[0];
     btn1.onclick = function() {
-        if(i <= 0) {
+        if(i < 0) {
           i = funcArr.length;
         }
-        funcArr[i--](); // first call function and then, increment the value of i
+        i--;
+        funcArr[i](); // first call function and then, increment the value of i
         console.log("Previous " +i);
     }
     </script>
