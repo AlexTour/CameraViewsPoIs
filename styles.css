@@ -100,6 +100,14 @@ model-viewer {
   text-align: -webkit-right;
 }
 
+.NavigationButton {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: none;
+  background-color: rgb(255, 255, 255); 
+}
+
 .AudioAnnotation {
   bottom: 10%; 
   transform: translate(0px, 30px);
