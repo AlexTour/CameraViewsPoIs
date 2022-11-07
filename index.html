@@ -122,19 +122,19 @@
 
     let btn = document.getElementsByTagName('button')[1];
     btn.onclick = function() {
-        if(i >= funcArr.length) {
+        if(i+1 >= funcArr.length) {
           i = 0;
         }
         funcArr[i++](); // first call function and then, increment the value of i i++ % funcArr.length
-        console.log(i);
+        console.log("Next: funcArr["+i"]()");
     }
     let btn1 = document.getElementsByTagName('button')[0];
     btn1.onclick = function() {
-        if(i <= 0) {
-          i = funcArr.length;
+        if(i-1 <= 0) {
+          i = funcArr.length-1;
         }
         funcArr[i--](); // first call function and then, increment the value of i
-        console.log(i);
+        console.log("Previous: funcArr["+i"]()");
     }
     </script>
     <script>
