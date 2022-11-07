@@ -95,6 +95,7 @@ model-viewer {
   position: absolute;
   right: 0px;
   width: 50%;
+  text-align: -webkit-right;
 }
 
 .AudioAnnotation {
