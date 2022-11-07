@@ -84,7 +84,7 @@ model-viewer {
 }
 
 .left-half {
-  background-color: #ff9e2c;
+  /*background-color: #ff9e2c;*/
   position: absolute;
   left: 0px;
   width: 40px;
@@ -92,7 +92,7 @@ model-viewer {
 }
 
 .right-half {
-  background-color: #b6701e;
+  /*background-color: #b6701e;*/
   position: absolute;
   right: 0px;
   width: 40px;
