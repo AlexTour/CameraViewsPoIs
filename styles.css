@@ -86,17 +86,19 @@ model-viewer {
 .left-half {
   /*background-color: #ff9e2c;*/
   position: absolute;
-  left: 0px;
+  left: 10%;
   width: 40px;
   height: 40px;
+  top: 40%;
 }
 
 .right-half {
   /*background-color: #b6701e;*/
   position: absolute;
-  right: 0px;
+  right: 10%;
   width: 40px;
   height: 40px;
+  top: 40%;
   text-align: -webkit-right;
 }
 
