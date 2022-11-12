@@ -106,9 +106,13 @@ model-viewer {
   text-align: -webkit-right;
 }
 
-.top {
-  right: 0%;
+left-half.top {
   left: 0%;
+  top: 0%;
+}
+
+right-half.top {
+  right: 0%;
   top: 0%;
 }
 
