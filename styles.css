@@ -7,7 +7,8 @@ body {
   padding: 0;
   width: 100vw;
   height: 100vh;
-  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  /*background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);*/
+  background: whitesmoke; 
 
 }
 
@@ -19,7 +20,7 @@ model-viewer {
 }
 
 .Hotspot {
-  background: #fff;
+  background: #7c7c7c;
   border-radius: 32px;
   border: 0;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
@@ -31,6 +32,7 @@ model-viewer {
   transition: opacity 0.3s;
   width: 24px;
   font-size: 14px;
+  color: white;
 }
 
 .Hotspot:not([data-visible]) {
@@ -55,10 +57,10 @@ model-viewer {
 }
 
 .HotspotAnnotation{
-  background: #fff;
+  background: #7c7c7c;
   border-radius: 4px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
-  color: rgba(0, 0, 0, 0.8);
+  color: rgb(255 255 255);
   display: block;
   font-family: Futura, Helvetica Neue, sans-serif;
   font-size: 10px;
@@ -109,9 +111,10 @@ model-viewer {
   height: 100%;
   border-radius: 50%;
   border: none;
-  background-color: rgb(255, 255, 255); 
+  background-color: #7c7c7c;
   font-weight: bold;
   font-size: larger;
+  color: white;
 }
 
 .AudioAnnotation {
