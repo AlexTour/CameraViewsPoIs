@@ -6,6 +6,8 @@
     <meta name="description" content="&lt;model-viewer&gt; template">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link type="text/css" href="./styles.css" rel="stylesheet"/>
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- OPTIONAL: The :focus-visible polyfill removes the focus ring for some input types -->
     <script src="https://unpkg.com/focus-visible@5.0.2/dist/focus-visible.js" defer></script>
   </head>
@@ -47,9 +49,7 @@
       </button>
     </div>
     <div class="right-half top">
-      <button>
-        <img src="gear-solid.png" alt="settings">
-      </button>
+      <button class="SettingsButton"><i class="fa fa-bars"></i></button>
     </div>   
     <div class="left-half">
       <button class="NavigationButton" id="previous">&#8249;</button>
