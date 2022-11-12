@@ -89,7 +89,7 @@ model-viewer {
   left: 10%;
   width: 40px;
   height: 40px;
-  top: 60%;
+  top: 70%;
 }
 
 .right-half {
@@ -98,7 +98,7 @@ model-viewer {
   right: 10%;
   width: 40px;
   height: 40px;
-  top: 60%;
+  top: 70%;
   text-align: -webkit-right;
 }
 
