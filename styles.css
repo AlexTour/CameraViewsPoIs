@@ -122,6 +122,17 @@ model-viewer {
   /*transform: translate(0px, 30px);*/
 }
 
+.ResetButton {
+  background-color: #7c7c7c;
+  color: white;
+  border: 2px solid #7c7c7c;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 12px;
+  margin: 4px 2px;
+}
+
 .switch {
   position: relative;
   display: inline-block;
