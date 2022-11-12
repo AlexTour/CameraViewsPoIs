@@ -61,15 +61,17 @@ model-viewer {
   color: rgba(0, 0, 0, 0.8);
   display: block;
   font-family: Futura, Helvetica Neue, sans-serif;
-  /*font-size: 18px;*/
-  font-weight: 700;
+  font-size: 10px;
+  font-weight: 400;
   /*left: calc(100% + 1em);*/
-  max-width: 128px;
+  max-width: 300px; /*128*/
   overflow-wrap: break-word;
   padding: 0.5em 1em;
   position: absolute;
   top: 50%;
   width: max-content;
+  transform: translate(-30%, 30px);
+  left: 130%;
 }
 
 .Hotspot:not([data-visible]) > * {
@@ -114,7 +116,7 @@ model-viewer {
 
 .AudioAnnotation {
   bottom: 10%; 
-  transform: translate(0px, 30px);
+  /*transform: translate(0px, 30px);*/
 }
 
 .switch {
