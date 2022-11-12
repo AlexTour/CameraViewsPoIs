@@ -106,6 +106,12 @@ model-viewer {
   text-align: -webkit-right;
 }
 
+.top {
+  right: 0%;
+  left: 0%;
+  top: 0%;
+}
+
 .NavigationButton {
   width: 100%;
   height: 100%;
