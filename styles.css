@@ -66,14 +66,14 @@ model-viewer {
   font-size: 10px;
   font-weight: 400;
   /*left: calc(100% + 1em);*/
-  max-width: 300px; /*128*/
+  max-width: 100%; /*300*/
   overflow-wrap: break-word;
   padding: 0.5em 1em;
   position: absolute;
-  top: 50%;
+  /*top: 50%;*/
   width: max-content;
-  transform: translate(-30%, 30px);
-  left: 130%;
+  /*transform: translate(-30%, 30px);
+  left: 130%;*/
 }
 
 .Hotspot:not([data-visible]) > * {
